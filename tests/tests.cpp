@@ -12,43 +12,43 @@ TEST(Transaction, gee_test) {
 }
 
 
-TEST(Transaction, fee_check) {
-    Account John(11, 100);
-    Account Peter(12, 0);
-    Transaction transaction;
-    EXPECT_FALSE(transaction.Make(John, Peter, 100));
-}
+// TEST(Transaction, fee_check) {
+//     Account John(11, 100);
+//     Account Peter(12, 0);
+//     Transaction transaction;
+//     EXPECT_FALSE(transaction.Make(John, Peter, 100));
+// }
 
-TEST(Transaction, id_check) {
-    Account John(11, 100);
-    Account Peter(11, 100);
-    Transaction transaction;
+// TEST(Transaction, id_check) {
+//     Account John(11, 100);
+//     Account Peter(11, 100);
+//     Transaction transaction;
 
-    try {
-        transaction.Make(John, Peter, 100);
-        FAIL() << "expected error" << std::endl;
-    } catch(std::logic_error& err) {
-        EXPECT_EQ(err.what(), std::string("invalid action"));
-    } catch(...) {
-        FAIL() << "expected logic error" << std::endl;
-    }
-}
+//     try {
+//         transaction.Make(John, Peter, 100);
+//         FAIL() << "expected error" << std::endl;
+//     } catch(std::logic_error& err) {
+//         EXPECT_EQ(err.what(), std::string("invalid action"));
+//     } catch(...) {
+//         FAIL() << "expected logic error" << std::endl;
+//     }
+// }
 
-TEST(Transaction, sum_check) {
-    Account John(1, 1000);
-    Account Peter(12, 100);
-    Transaction transaction;
+// TEST(Transaction, sum_check) {
+//     Account John(1, 1000);
+//     Account Peter(12, 100);
+//     Transaction transaction;
 
-    try {
-        transaction.Make(John, Peter, -100);
-        FAIL() << "expected error" << std::endl;
-    } catch(std::invalid_argument& arg) {
+//     try {
+//         transaction.Make(John, Peter, -100);
+//         FAIL() << "expected error" << std::endl;
+//     } catch(std::invalid_argument& arg) {
 
-        EXPECT_EQ(arg.what(), std::string("sum can't be negative"));
-    } catch(...) {
-        FAIL() << "expected argument error" << std::endl;
-    }
-}
+//         EXPECT_EQ(arg.what(), std::string("sum can't be negative"));
+//     } catch(...) {
+//         FAIL() << "expected argument error" << std::endl;
+//     }
+// }
 
 
 
