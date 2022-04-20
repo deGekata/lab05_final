@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build"
+CMAKE_BINARY_DIR = "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build"
 
 # Include any dependencies generated for this target.
 include third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../third-party/gtest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest/src/gtest-all.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest/src/gtest-all.cc"
 
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest/src/gtest-all.cc" > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest/src/gtest-all.cc" -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 third-party/gtest/googlemock/gtest/libgtest.a: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 third-party/gtest/googlemock/gtest/libgtest.a: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make
 third-party/gtest/googlemock/gtest/libgtest.a: third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build: third-party/gtest/googlemock/gtest/libgtest.a
@@ -90,10 +90,10 @@ third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build: third-party/gtest
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest" "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : third-party/gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

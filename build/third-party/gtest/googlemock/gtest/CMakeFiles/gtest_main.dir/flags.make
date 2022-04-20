@@ -6,5 +6,5 @@ CXX_FLAGS =  --coverage   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTES
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest/include" -isystem "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googletest" 
+CXX_INCLUDES = -isystem "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest/include" -isystem "/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googletest" 
 

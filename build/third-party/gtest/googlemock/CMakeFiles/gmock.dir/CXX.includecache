@@ -546,17 +546,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/gmock-all.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/gmock-all.cc
 gmock/gmock.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/gmock/gmock.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/gmock/gmock.h
 src/gmock-cardinalities.cc
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/src/gmock-cardinalities.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/src/gmock-cardinalities.cc
 src/gmock-internal-utils.cc
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/src/gmock-internal-utils.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/src/gmock-internal-utils.cc
 src/gmock-matchers.cc
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/src/gmock-matchers.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/src/gmock-matchers.cc
 src/gmock-spec-builders.cc
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/src/gmock-spec-builders.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/src/gmock-spec-builders.cc
 src/gmock.cc
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/src/gmock.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/src/gmock.cc
 

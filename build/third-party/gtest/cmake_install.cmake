@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest
+# Install script for directory: /mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/build/third-party/gtest/googlemock/cmake_install.cmake")
+  include("/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/build/third-party/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

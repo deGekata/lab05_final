@@ -290,11 +290,11 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/tests/tests.cpp
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/tests/tests.cpp
 gtest/gtest.h
 -
 Transaction.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/tests/Transaction.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/tests/Transaction.h
 Account.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/tests/Account.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/tests/Account.h
 

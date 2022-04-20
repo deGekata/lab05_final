@@ -472,13 +472,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/gmock_main.cc
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/gmock_main.cc
 iostream
 -
 gmock/gmock.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/gmock/gmock.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/gmock/gmock.h
 gtest/gtest.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/third-party/gtest/googlemock/src/gtest/gtest.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/third-party/gtest/googlemock/src/gtest/gtest.h
 tchar.h
 -
 

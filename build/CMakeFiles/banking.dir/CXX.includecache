@@ -8,17 +8,17 @@
 
 ../include/Account.h
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.cpp
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/banking/Account.cpp
 Account.h
 -
 stdexcept
 -
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/banking/Account.h
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Transaction.cpp
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/banking/Transaction.cpp
 ../include/Transaction.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/include/Transaction.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/include/Transaction.h
 cassert
 -
 iostream
@@ -26,7 +26,7 @@ iostream
 stdexcept
 -
 Account.h
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/banking/Account.h
 
-/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/include/Transaction.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/include/Transaction.h
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  --coverage   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/include" 
+CXX_INCLUDES = -I"/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05_/include" 
 
