@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Account.h
+
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.cpp
+Account.h
+-
+stdexcept
+-
+
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.h
+
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Transaction.cpp
+../include/Transaction.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/include/Transaction.h
+cassert
+-
+iostream
+-
+stdexcept
+-
+Account.h
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/banking/Account.h
+
+/mnt/c/Users/Yaric-PC/Documents/Git Projects/lab05_final/lab05/include/Transaction.h
+

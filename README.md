@@ -84,9 +84,10 @@ EOF
 ```
 
 ```sh
-$ cmake -H. -B_build -DBUILD_TESTS=ON
-$ cmake --build _build
-$ cmake --build _build --target test
+  cmake -B build
+  cd build
+  make
+  ./tests
 ```
 
 ```sh

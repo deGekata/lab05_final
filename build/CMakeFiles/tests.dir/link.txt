@@ -1,0 +1,1 @@
+/usr/bin/c++   --coverage   CMakeFiles/tests.dir/tests/tests.cpp.o  -o tests  libbanking.a third-party/gtest/googlemock/gtest/libgtest_main.a third-party/gtest/googlemock/libgmock_main.a third-party/gtest/googlemock/libgmock.a third-party/gtest/googlemock/gtest/libgtest.a -pthread 
