@@ -52,15 +52,15 @@ TEST(Transaction, sum_check) {
 
 
 
-TEST(Transaction, change_balance) {
-    Account John(173, 1000);
-    Account Peter(12, 100);
-    try {
-        John.ChangeBalance(30);
-        FAIL() << "expected error" << std::endl;
-    } catch(std::runtime_error& time) {
-        EXPECT_EQ(time.what(), std::string("at first lock the account"));
-    } catch(...) {
-        FAIL() << "expected time error" << std::endl;
-    }
-}
+// TEST(Transaction, change_balance) {
+//     Account John(173, 1000);
+//     Account Peter(12, 100);
+//     try {
+//         John.ChangeBalance(30);
+//         FAIL() << "expected error" << std::endl;
+//     } catch(std::runtime_error& time) {
+//         EXPECT_EQ(time.what(), std::string("at first lock the account"));
+//     } catch(...) {
+//         FAIL() << "expected time error" << std::endl;
+//     }
+// }
